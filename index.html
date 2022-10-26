@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video_meet</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div id="videos">
+        <video class="video-player" id="user-1" autoplay playsinline></video>
+        <video class="video-player" id="user-2" autoplay playsinline></video>
+    </div>
+    <div id="controls">
+        
+        <div class="control-container" id="camera-btn">
+            <img src="images/camera.png" alt="camera">
+        </div>
+        
+        
+        <div class="control-container" id="mic-btn">
+            <img src="images/mic.png" alt="mic">
+        </div>
+        
+        <a href="lobby.html">
+            <div class="control-container" id="end-btn">
+                <img src="images/end.png" alt="end">
+            </div>
+        </a>
+
+        
+    </div>
+</body>
+<script>
+    let a = document.getElementById('end-btn').addEventListener('click', (e) => {
+        alert("Press again to leave the call")
+    })
+</script>
+<script src="agora-rtm-sdk-1.4.4.js"></script>
+<script src="main.js"></script>
+</html>
