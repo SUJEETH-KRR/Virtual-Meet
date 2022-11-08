@@ -1,5 +1,5 @@
-![GitHub language count](https://img.shields.io/github/languages/count/SUJEETH-KRR/Virtual-Meet) 
-![GitHub top language](https://img.shields.io/github/languages/top/SUJEETH-KRR/Virtual-Meet?color=yellow) 
+![GitHub language count](https://img.shields.io/github/languages/count/SUJEETH-KRR/Virtual_Meet) 
+![GitHub top language](https://img.shields.io/github/languages/top/SUJEETH-KRR/Virtual_Meet?color=yellow) 
 
 ![Github thumbnail](https://cdn.pixabay.com/photo/2021/05/15/19/30/computer-6256508__340.jpg)
 
